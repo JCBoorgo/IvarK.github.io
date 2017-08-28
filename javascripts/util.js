@@ -51,6 +51,7 @@ function load_game() {
       if (player.sacrificed === undefined) player.sacrificed = 0;
       if (player.challenges === undefined) player.challenges = [];
 	    if (player.infinityUpgrades === undefined) player.infinityUpgrades = [];
+	if (player.currentChallenge === undefined) player.currentChallenge = "";
       if (player.infinityPoints === undefined) player.infinityPoints = 0;
 	    if (player.infinitied === undefined) player.infinitied = 0;
 	    if (player.totalTimePlayed === undefined) player.totalTimePlayed = 0;
