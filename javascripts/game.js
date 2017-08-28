@@ -1394,6 +1394,7 @@ function init() {
     document.getElementById('optionsbtn').onclick=function () {showTab('options');};
     document.getElementById('statisticsbtn').onclick=function () {showTab('statistics');};
     document.getElementById('achievementsbtn').onclick=function () {showTab('achievements');};
+    document.getElementById('challengesbtn').onclick=function () {showTab('challenges');};
     document.getElementById('infinitybtn').onclick=function () {showTab('infinity');};
     //show one tab during init or they'll all start hidden
     showTab('dimensions')
