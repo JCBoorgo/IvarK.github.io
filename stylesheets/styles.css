@@ -27,9 +27,10 @@
   background-color: black;
 }
 
-
-
-
+/*.divider is a place holder to modify the blank lines in between challenges */
+.divider {
+  padding: 0px
+}
 
 .storebtn {
   color: black;
